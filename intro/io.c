@@ -15,7 +15,6 @@ int main(int argc, char *argv[]) {
     assert(rc == (strlen(buffer)));
     fsync(fd);
     close(fd);
-    printf("hello, world!")
     return 0;
 }
 
